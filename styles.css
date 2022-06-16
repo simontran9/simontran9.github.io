@@ -1,0 +1,26 @@
+@font-face {
+    font-family: Gidole Regular;
+    src: url(gidole_regular.ttf);
+}
+
+* {
+    font-family: Gidole Regular;
+}
+
+.main-content {
+    display: grid;
+    place-items: center;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
